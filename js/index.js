@@ -18,4 +18,4 @@ for(let i=0; i<3; i++){
 ul.style.textAlign = 'left';
 element.appendChild(ul);
 
-
+ul.removeChild(ul.querySelector('li:nth-child(2)'));
